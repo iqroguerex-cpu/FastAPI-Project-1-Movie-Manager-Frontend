@@ -115,7 +115,7 @@ All actions update instantly through the API.
 
 Backend source code:
 
-https://github.com/YOUR_USERNAME/fastapi-project-1-movie-manager
+https://github.com/iqroguerex-cpu/fastapi-project-1-movie-manager
 
 ---
 
