@@ -1,54 +1,67 @@
 # 🎬 Movie Manager Frontend
 
-This is the **frontend dashboard** for the Movie Manager application.
+![GitHub Repo stars](https://img.shields.io/github/stars/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend?style=social)
+![GitHub forks](https://img.shields.io/github/forks/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend)
+![GitHub repo size](https://img.shields.io/github/repo-size/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend)
+![GitHub license](https://img.shields.io/github/license/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend)
 
-It provides a simple and clean UI to interact with the **FastAPI backend**.
+A **simple and clean Movie Manager dashboard** built with **HTML, Bootstrap, and JavaScript** that interacts with a **FastAPI backend**.
 
-Live App:
+The application allows users to **view, add, edit, delete, and filter movies** through a responsive UI.
+
+---
+
+## 🌐 Live Demo
+
+**Frontend (GitHub Pages)**
 https://iqroguerex-cpu.github.io/FastAPI-Project-1-Movie-Manager-Frontend/
 
-Backend API:
+**Backend API (Render)**
 https://fastapi-project-1-movie-manager.onrender.com
 
----
-
-# 🚀 Features
-
-* View all movies
-* Add new movie
-* Edit existing movie
-* Delete movie
-* Filter movies by genre
-* Clean responsive dashboard UI
+**API Documentation**
+https://fastapi-project-1-movie-manager.onrender.com/docs
 
 ---
 
-# 🛠 Tech Stack
+## 🚀 Features
 
-Frontend
-
-* HTML
-* Bootstrap 5
-* JavaScript
-
-API Communication
-
-* Fetch API
-
-Hosting
-
-* GitHub Pages
-
-Backend
-
-* FastAPI (Python)
+* 🎥 View all movies
+* ➕ Add new movies
+* ✏️ Edit existing movies
+* ❌ Delete movies
+* 🔎 Filter movies by genre
+* 📱 Responsive UI using Bootstrap
+* ⚡ Real-time API integration using Fetch API
 
 ---
 
-# 📂 Project Structure
+## 🛠 Tech Stack
+
+### Frontend
+
+* **HTML5**
+* **Bootstrap 5**
+* **JavaScript**
+
+### Backend
+
+* **FastAPI**
+* **Python**
+* **Uvicorn**
+
+### Hosting
+
+* **GitHub Pages** (Frontend)
+* **Render** (Backend API)
+
+---
+
+## 📂 Project Structure
 
 ```
-movie-manager-frontend
+FastAPI-Project-1-Movie-Manager-Frontend
 │
 ├── index.html
 └── README.md
@@ -56,33 +69,31 @@ movie-manager-frontend
 
 ---
 
-# ⚙️ Running Locally
+## ⚙️ Running Locally
 
 Clone the repository
 
 ```
-git clone https://github.com/YOUR_USERNAME/movie-manager-frontend.git
+git clone https://github.com/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend.git
 ```
 
-Open the folder
+Go to the project directory
 
 ```
-cd movie-manager-frontend
+cd FastAPI-Project-1-Movie-Manager-Frontend
 ```
 
-Simply open
+Open the application
 
 ```
 index.html
 ```
 
-in your browser.
-
-Make sure the backend API is running.
+Make sure the backend API is running locally or deployed.
 
 ---
 
-# 🔗 API Integration
+## 🔗 API Integration
 
 This frontend connects to the deployed FastAPI backend:
 
@@ -90,28 +101,30 @@ This frontend connects to the deployed FastAPI backend:
 https://fastapi-project-1-movie-manager.onrender.com
 ```
 
-Example request:
+Example API request:
 
 ```
 GET /movies
 ```
 
+This endpoint returns all movies from the backend service.
+
 ---
 
-# 📸 Demo
+## 📸 Application Demo
 
 The dashboard allows users to:
 
 * Add movies
-* Edit movies
+* Edit movie details
 * Delete movies
 * Filter movies by genre
 
-All actions update instantly through the API.
+All updates are handled via the FastAPI backend.
 
 ---
 
-# 🌐 Backend Repository
+## 🌐 Backend Repository
 
 Backend source code:
 
@@ -119,6 +132,10 @@ https://github.com/iqroguerex-cpu/fastapi-project-1-movie-manager
 
 ---
 
-# 📄 License
+## 📄 License
 
-This project is open-source and available for educational use.
+This project is open-source and available for **educational and learning purposes**.
+
+---
+
+⭐ If you found this project helpful, consider **starring the repository**.
