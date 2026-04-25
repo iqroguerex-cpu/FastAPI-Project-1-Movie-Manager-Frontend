@@ -1,148 +1,155 @@
-# 🎬 Movie Manager Frontend
+# 🎬 REX Movie Manager (AWS Serverless)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-success?style=for-the-badge)](https://iqroguerex-cpu.github.io/FastAPI-Project-1-Movie-Manager-Frontend/)
-[![Backend API](https://img.shields.io/badge/Backend-FastAPI-blue?style=for-the-badge\&logo=fastapi)](https://fastapi-project-1-movie-manager.onrender.com)
-[![API Docs](https://img.shields.io/badge/API%20Docs-Swagger-orange?style=for-the-badge)](https://fastapi-project-1-movie-manager.onrender.com/docs)
+<p align="center">
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Frontend-success?style=for-the-badge)](https://staging.d3mluupf1gyxaw.amplifyapp.com/)
+[![Backend API](https://img.shields.io/badge/Backend-AWS%20Lambda-blue?style=for-the-badge\&logo=amazonaws)](https://act0h7myif.execute-api.ap-south-1.amazonaws.com/default/)
 ![GitHub Repo stars](https://img.shields.io/github/stars/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend?style=social)
-![GitHub forks](https://img.shields.io/github/forks/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend)
-![GitHub repo size](https://img.shields.io/github/repo-size/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend)
 
-A **clean and responsive Movie Manager dashboard** built with **HTML, Bootstrap, and JavaScript** that interacts with a **FastAPI backend**.
-
-The application allows users to **view, add, edit, delete, and filter movies** through a simple and intuitive interface.
+</p>
 
 ---
 
-# 🌐 Live Application
+## 🚀 Overview
 
-### Frontend (GitHub Pages)
+A modern **Movie Manager Dashboard** built with **HTML, Tailwind CSS, and JavaScript**, powered by a **serverless backend on AWS (Lambda + API Gateway + DynamoDB)**.
 
-https://iqroguerex-cpu.github.io/FastAPI-Project-1-Movie-Manager-Frontend/
-
-### Backend API
-
-https://fastapi-project-1-movie-manager.onrender.com
-
-### API Documentation
-
-https://fastapi-project-1-movie-manager.onrender.com/docs
+The app allows users to **add, view, and delete movies** with real-time updates using REST APIs.
 
 ---
 
-# 🚀 Features
-
-* 🎥 View all movies
-* ➕ Add new movies
-* ✏️ Edit existing movies
-* ❌ Delete movies
-* 🔎 Filter movies by genre
-* 📱 Responsive UI built with Bootstrap
-* ⚡ Real-time API communication using Fetch API
-
----
-
-# 🛠 Tech Stack
+## 🌐 Live Application
 
 ### Frontend
 
-* **HTML5**
-* **Bootstrap 5**
-* **JavaScript**
+👉 https://staging.d3mluupf1gyxaw.amplifyapp.com/
+
+### Backend API
+
+👉 https://act0h7myif.execute-api.ap-south-1.amazonaws.com/default/
+
+---
+
+## ✨ Features
+
+* 🎥 View all movies from database
+* ➕ Add new movies
+* ❌ Delete movies
+* 🔄 Refresh movie list
+* ⚡ Real-time API interaction
+* 🎨 Modern dark UI with Tailwind CSS
+* ☁️ Fully serverless backend (AWS)
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+
+* HTML5
+* Tailwind CSS
+* JavaScript (Fetch API)
 
 ### Backend
 
-* **FastAPI**
-* **Python**
-* **Uvicorn**
+* AWS Lambda
+* API Gateway
+* DynamoDB
 
 ### Hosting
 
-* **GitHub Pages** – Frontend
-* **Render** – FastAPI API
+* AWS Amplify – Frontend
+* AWS Serverless – Backend
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```id="n38n79"
-FastAPI-Project-1-Movie-Manager-Frontend
-│
+```bash
+.
 ├── index.html
-└── README.md
+├── README.md
 ```
 
 ---
 
-# ⚙️ Running Locally
+## ⚙️ Running Locally
 
-Clone the repository
+Clone the repository:
 
-```id="hzw4l0"
-git clone https://github.com/iqroguerex-cpu/FastAPI-Project-1-Movie-Manager-Frontend.git
+```bash
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
 ```
 
-Navigate into the project directory
+Open:
 
-```id="qx2kkx"
-cd FastAPI-Project-1-Movie-Manager-Frontend
-```
-
-Open the application
-
-```id="i4sji7"
+```bash
 index.html
 ```
 
 in your browser.
 
-Make sure the backend API is running locally or deployed.
+Make sure backend API is deployed and accessible.
 
 ---
 
-# 🔗 API Integration
+## 🔗 API Integration
 
-This frontend communicates with the deployed FastAPI backend:
-
-```
-https://fastapi-project-1-movie-manager.onrender.com
-```
-
-Example request:
+Base URL:
 
 ```
-GET /movies
+https://act0h7myif.execute-api.ap-south-1.amazonaws.com/default
 ```
 
-This endpoint returns all available movies from the API.
+### Endpoints:
+
+* `GET /movies` → Fetch all movies
+* `POST /movies` → Add a movie
+* `DELETE /movies/{title}` → Delete a movie
 
 ---
 
-# 📸 Application Demo
+## 📸 Application Demo
 
 The dashboard allows users to:
 
 * Add movies
-* Edit movie details
+* View stored movies
 * Delete movies
-* Filter movies by genre
 
-All operations update the UI dynamically using the backend API.
-
----
-
-# 🌐 Backend Repository
-
-Backend source code:
-
-https://github.com/iqroguerex-cpu/fastapi-project-1-movie-manager
+All operations are handled dynamically via API calls.
 
 ---
 
-# 📄 License
+## ☁️ Architecture
 
-This project is **open-source** and available for **educational and learning purposes**.
+* Frontend hosted on **AWS Amplify**
+* Backend built with **AWS Lambda + API Gateway**
+* Data stored in **DynamoDB**
 
 ---
 
-⭐ If you found this project helpful, consider **starring the repository**.
+## 🔮 Future Improvements
+
+* ✏️ Edit movie functionality
+* 🔎 Search & filter movies
+* 🔐 Authentication (JWT / Cognito)
+* ⭐ Rating system
+* 📊 Analytics dashboard
+
+---
+
+## 👨‍💻 Author
+
+**Your Name**
+
+* GitHub: https://github.com/your-username
+* LinkedIn: https://linkedin.com/in/your-profile
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
